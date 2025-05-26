@@ -242,7 +242,7 @@
     height: 595px;
     display: flex;
     flex-direction: row;
-    margin-bottom: 180px;
+    margin: 0 24px 180px 24px;
 }
 
 .about__background {
