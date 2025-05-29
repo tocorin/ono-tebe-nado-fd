@@ -239,7 +239,8 @@
     font-size: 20px;
     line-height: 100%;
 }
-.lots__view-more-link > a{
+
+.lots__view-more-link > a {
     text-underline-offset: 5px;
 }
 
