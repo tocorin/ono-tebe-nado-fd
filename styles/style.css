@@ -234,11 +234,15 @@
 }
 
 .lots__view-more-link {
-    margin-top: 30px;
+    margin-top: 32px;
     margin-left: 64px;
     font-size: 20px;
     line-height: 100%;
 }
+.lots__view-more-link > a{
+    text-underline-offset: 5px;
+}
+
 
 .about {
     height: 595px;
@@ -267,7 +271,7 @@
 }
 
 .about__content {
-    margin-top: 133px;
+    margin-top: 136px;
 }
 
 .about__content-title {
@@ -282,8 +286,15 @@
     font-family: "Raleway";
     font-weight: 400;
     font-size: 20px;
+    line-height: 24px;
     letter-spacing: 0em;
     margin-top: 100px;
+}
+
+.about__content-text p:first-of-type {
+    margin-bottom: 24px;
+    /* по макету есть микро отступ */
+    margin-right: 5px;
 }
 
 .footer {
