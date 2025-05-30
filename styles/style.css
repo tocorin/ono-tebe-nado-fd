@@ -22,26 +22,15 @@
     min-height: 293px;
 }
 
-.header__logo{
+.header__logo {
     width: 148px;
     height: 105px;
-}
-
-.about__logo {
-    width: 141.55px;
-    height: 112.55px;
 }
 
 .header__logo > img {
     width: 148px;
     height: 105px;
 }
-
-.about__logo > img {
-    width: 141.55px;
-    height: 112.55px;
-}
-
 
 .header__menu {
     margin-left: 50px;
@@ -220,7 +209,6 @@
     background-size: cover;
     background-position: 50% 50%;
     background-blend-mode: multiply;
-
 }
 
 .lots__cards-item-bg-3 {
@@ -285,6 +273,16 @@
     
 }
 
+.about__logo > img {
+    width: 141.55px;
+    height: 112.55px;
+}
+
+.about__logo {
+    width: 141.55px;
+    height: 112.55px;
+}
+
 .about__background > img {
     width: 148px;
     height: 115px;
@@ -334,7 +332,7 @@
     text-align: center;
 }
 
-.footer__links-list-item:not(:last-child){
+.footer__links-list-item:not(:last-child) {
     margin-bottom: -3px;
 }
 
